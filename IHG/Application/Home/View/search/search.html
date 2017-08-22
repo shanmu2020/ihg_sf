@@ -1,0 +1,209 @@
+<include file="index/header"/>
+<div class="form-inline col-md-offset-8" style="">
+  <div class="form-group">
+        <input type="text" class="form-control" id="search" name="search" placeholder="请输入菜名">
+  </div>
+  <button id="search_title1"  class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+
+</div>
+            <div class="bannerArea" id="banner_area" data-type="1">
+  <div class="bannerBg"></div>
+
+    </div>
+  <script type="text/javascript">
+  $(function(){
+    $("#fullBanner").focusImg({
+      uistyle : "style-1",
+      fnclass : "LMove",
+      usertime : 6
+    });
+  });
+  </script>
+
+
+
+<script type="text/javascript">
+    G_.upgradeOneTag = 2;
+    wsf.hoffL();
+    if(G_.upgradeOneTag === 0){
+        wsf.hoffT();
+    }
+</script>
+<div class="mainContainer " id="main_container">
+    <div class="addContainer q" id="add_container" data-attr="h:0">
+                    <div class="customModuleRow " id="row_42">
+        <div class="customModuleRowInner">
+            <div class="TitleModule">
+                                                                                                                <div data-animate-name="fadeInUp" data-animate-duration="1.00s" data-animate-delay="0.10s" class="customModule" style="">
+                    <div class="Mo copyHMo_1500602_4" data-classname="copyHMo_1500602_4" id="Mo_43">
+                        <table class="MoT"><tbody>
+                            <tr>
+                                <td class="MoTL"></td>
+                                <td class="MoTM"></td>
+                                <td class="MoTR"></td>
+                            </tr>
+                        </tbody></table>
+                        <table class="MoHead"><tbody>
+                            <tr>
+                                <td class="MoHeadL"></td>
+                                <td valign="top" class="MoHeadM">
+                                    <table class="MoName">
+                                        <tbody>
+                                            <tr>
+                                                <td valign="top" class="MoNameL"></td>
+                                                <td valign="top" class="MoNameM">
+                                                                                                            <strong class="NameTxt">    <span class="ContainerCrumbs">
+    <b class="firstFont"><a href="#">美食列表</a></b>
+    <em>&gt;&gt;</em>
+    <b><a href="#">{$list[0].category}</a></b>
+
+
+
+    </span></strong>
+                                                                                                    </td>
+                                                <td valign="top" class="MoNameR"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <span class="MoMore">
+                                                                            </span>
+                                </td>
+                                <td class="MoHeadR"></td>
+                            </tr>
+                        </tbody></table>
+
+
+                        <table class="MoB"><tbody>
+                            <tr>
+                                <td class="MoBL"></td>
+                                <td class="MoBM"></td>
+                                <td class="MoBR"></td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                </div>
+                                                                                                </div>
+        </div>
+        </div>
+                    <div class="customModuleRow " id="row_43">
+        <div class="customModuleRowInner">
+
+                                                                                                    </div>
+                                                                                <div class="CModulePCLeft PCRight" style="width:900px;">                                <div style="width:890px; " data-animate-name="fadeInUp" data-animate-duration="1.00s" data-animate-delay="0.10s" class="customModule">
+                    <div style="width:970px; " class="Mo copyMo_1500602_6" data-classname="copyMo_1500602_6" id="Mo_45">
+                        <table class="MoT"><tbody>
+                            <tr>
+                                <td class="MoTL"></td>
+                                <td class="MoTM"></td>
+                                <td class="MoTR"></td>
+                            </tr>
+                        </tbody></table>
+                        <table class="MoHead"><tbody>
+                            <tr>
+                                <td class="MoHeadL"></td>
+                                <td valign="top" class="MoHeadM">
+                                    <table class="MoName">
+                                        <tbody>
+                                            <tr>
+                                                <td valign="top" class="MoNameL"></td>
+                                                <td valign="top" class="MoNameM">
+                                                                                                            <strong class="NameTxt"><a>{$list[0].category}</a></strong>
+                                                                                                    </td>
+                                                <td valign="top" class="MoNameR"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <span class="MoMore">
+                                                                            </span>
+                                </td>
+                                <td class="MoHeadR"></td>
+                            </tr>
+                        </tbody></table>
+
+                                                <table class="MoBody"><tbody>
+                            <tr>
+                                <td class="MoBodyL"></td>
+                                <td valign="top" class="MoBodyM">
+                                    <div style="width:970px; " class="MoBodyC">
+                                            <div class="pic-text-list-module s-listpage-pic-text-list-3">
+        <ul class="q">
+        <volist name="list" id="list1">
+                <li class="">
+        <div class="inner">
+            <a title="" class="pics" href="__ROOT__/index.php/home/content/show/id/{$list1.menu_id}">
+                <div class=" " >
+
+                    <table><tbody><tr><td>
+                        <img src="{$list1.image}" height="200px" width="200px">
+                    </td></tr></tbody></table>
+                </div>
+            </a>
+            <div class="pic-attr" >
+
+                <h3 class="pic-title">
+                    <a href="__ROOT__/index.php/home/content/show/id/{$list1.menu_id}" title="">{$list1.title}</a>
+                </h3>
+            </div>
+        </div>
+    </li>
+    </volist>
+        </ul>
+    </div>
+	    <div class="page">
+	    <div class="inner">
+	    {$page}
+<!--  	    <span class="disabled">共有1页</span>
+	    <span class="disabled">首页</span>
+	    <span class="page-start">上一页</span>
+	    <strong>1</strong>
+	    <span class="page-end">下一页</span>
+	    <span class="disabled">尾页</span> -->
+	    </div>
+    </div>
+                                                                             </div>
+                                </td>
+                                <td class="MoBodyR"></td>
+                            </tr>
+                        </tbody></table>
+
+                        <table class="MoB"><tbody>
+                            <tr>
+                                <td class="MoBL"></td>
+                                <td class="MoBM"></td>
+                                <td class="MoBR"></td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                </div>
+                                                                                                    </div>
+                                                            </div>
+        </div>
+        </div>
+                </div>
+  </div>
+                          <div class="reportAlt" style="display: none">
+                <span>
+                    <a href=".pc.goabc.cn/342886292/products/15501272_0_0_1.html###" class="closeReport" id="closeReport" onclick="showComplain();">x</a>
+                    <a href=".pc.goabc.cn/dom/tousu/tousu_complain.php?username=342886292">
+                        <h2>��վ�ٱ�</h2>
+                    </a>
+                    <a href="http://www.ev123.net/reg.php?Version=2016" target="_blank" class="imgInfo">
+                        <img src="__PUBLIC__/Image/reportImg.jpg">
+                        <p>�����վ��һ</p>
+                    </a>
+                </span>
+            </div>
+
+                      <script type="text/javascript">
+   function showComplain(){
+       writeCookie("jb_1505091", '1',1000 * 24 *30);
+       $(".reportAlt").css('display', 'none');
+   }
+   $(function(){
+      var close_ts_time=readCookie('jb_1505091');
+      if(!close_ts_time){
+         $(".reportAlt").css('display', 'block');
+      }
+   })
+</script>
+        <include file="index/bottom" />

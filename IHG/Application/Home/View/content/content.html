@@ -1,0 +1,36 @@
+<include file="index/header" />
+<div class="container">
+<div class="row">
+
+	<div class="col-md-10 col-md-offset-1">
+	{$content.show}
+	</div>
+	<br><br><br><br>
+	<div class="col-md-10 col-md-offset-1">
+		<span class="text-warning">*</span><textarea  rows="5" cols="155"  placeholder="请输入你的评论..."  class="from-control" name="comment_content"></textarea>
+	<input type="text" placeholder="请输入你姓名..." name="comment_name" class="from-control">
+	<input type="text" placeholder="联系方式(电话/email/weixin/qq..)..." name="comment_contact" class="from-control">
+<input type="hidden" value="{$content.menu_id}" name="menu_id">
+	<button id="upcomment" class="btn btn-info">发表</button>
+	</div>
+	<div class="col-md-10 col-md-offset-1">
+	<div class="page-header"><h1>最新评论</h1></div>
+		<ul style="margin-top:20px;">
+			<li style="margin-top:10px;" id="li_1"><span id="span_1"></span></li>
+			<li style="margin-top:10px;" id="li_2"></li>
+	    </ul>
+	<ul style="margin-top:20px;">
+		<volist name="comment" id="comment1"><li style="margin-top:10px;"><span class="glyphicon glyphicon-user"></span><strong>{$comment1.username}</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$comment1.time|date="Y-m-d",###}</li>
+		<li style="margin-top:10px;">&nbsp;&nbsp;&nbsp;&nbsp;{$comment1.content}</li>
+		</volist>
+	</ul>
+
+
+
+	</div>
+</div>
+</div>
+<script>
+
+</script>
+<include file="index/bottom" />

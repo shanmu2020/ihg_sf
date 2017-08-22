@@ -1,0 +1,44 @@
+<include file="index/header"/>
+<div class="container">
+	<div class="row">
+	<div class="col-md-4 col-md-offset-4" style="margin-bottom:20px">
+	<input type="text" class="form-control" placeholder="输入游客/文章id查询" name="search_comment"></div>
+	<div ><button id="submit_search_comment" class="btn btn-info"><span class="glyphicon glyphicon-search"></span></button>
+	</div>
+		<div class="col-md-10 col-md-offset-1">
+			<table class="table table-bordered table-hover">
+			<tr>
+			<th>评论编号</th>
+			<th>菜名</th>
+			<th>菜单编号</th>
+			<th>用户</th>
+			<th>联系方式</th>
+			<th>评论</th>
+			<th>时间</th>
+			</tr>
+
+			<volist name="comment" id="comment1">
+			<tr>
+			<td>{$comment1.id}</td>
+			<td>{$comment1.title}</td>
+			<td>{$comment1.menu_id}</td>
+			<td>{$comment1.username}</td>
+			<td>{$comment1.contact|default="无"}</td>
+			<td>{$comment1.content}</td>
+			<td>{$comment1.time|date="Y-m-d H:i:s",###}</td>
+			</tr>
+			</volist>
+			</table>
+		</div>
+		<div class="col-md-4 col-md-offset-4">{$page}</div>
+	</div>
+
+</div>
+<script>
+$("#submit_search_comment").click(function(){
+	var sc=$("input[name='search_comment']").val();
+	location.href='/IHG/admin.php/admin/index/comment/search/'+sc;
+})
+</script>
+
+<include file="index/buttom" />

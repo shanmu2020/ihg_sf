@@ -1,0 +1,56 @@
+<include file="index/header"/>
+<div class="container">
+	<div class="row">
+
+<div class="col-md-10 col-md-offset-4">
+<div class="form-inline">
+<input type="date" id="todaymenu_time" name="todaymenu_time" class="form-control" value="{$time}">
+<span class="btn btn-info" id="tt">查看单日菜单</span></div>
+</div>
+			<div class="col-md-10 col-md-offset-1">
+			<form id="deletetm">
+			<table class="table table-bordered table-hover">
+			<tr><th><span class="glyphicon glyphicon-ok" id="checkAll">All</span></th>
+				<th class="text-center">菜单编号</th>
+				<th class="text-center">菜名</th>
+				<th class="text-center">类别</th>
+				<th class="text-center">时间</th>
+				<th class="text-center">操作</th>
+			</tr>
+
+			<volist name="menu" id="menu1">
+			<tr>
+					<td><input type="checkbox" name="deletetm[{$menu1.menu_id}]" value="{$menu1.menu_id}"></td>
+					<td class="text-center">{$menu1.menu_id}</td>
+					<td >{$menu1.title}</td>
+					<td >{$menu1.category}</td>
+					<td class="text-center">{$menu1.time|date="Y-m-d H:i:s",###}</td>
+					<td class="text-center">
+					<a href="javascript:dialog.confirm('确认删除吗?','__ROOT__/index.php/admin/editor/delete/deletetable/2/id/{$menu1.menu_id}')"><span class="glyphicon glyphicon-remove-circle"></span>
+					</a>
+					</td>
+			</tr>
+			</volist>
+			</table></form>
+		</div>
+		<div class="col-md-10 col-md-offset-1" style="margin-bottom:20px;"><span class="btn btn-warning" id="deleteAll">批量删除</span></div>
+		<div class="col-md-2 col-md-offset-1"><span class="btn btn-info" id="delete3month">清除缓存</span>(保留近三月)</div>
+		</div>
+
+<script src="__PUBLIC__/Js/common.js"></script>
+<script>
+$("#delete3month").click(function(){
+	layer.confirm('确认只保留近三月的菜单吗?',{icon:3,btn:['确认','取消']},function(){
+		location.href="/IHG/admin.php/admin/editor/delete3month/dm/1"
+		//$.post("/IHG/admin.php/admin/editor/delete3month",{'dm':1},function(result){
+		//	if(result.status==1){dialog.toconfirm(result.message);}
+		//	if(result.status==0){dialog.error(result.message);
+
+		//},"JSON")
+
+		});
+
+})
+</script>
+
+<include file="index/buttom" />

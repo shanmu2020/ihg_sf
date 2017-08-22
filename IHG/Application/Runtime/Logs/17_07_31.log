@@ -1,0 +1,1979 @@
+[ 2017-07-31T15:50:22+08:00 ] ::1 /IHG/admin.php/admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000472s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.679109s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.679913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.298385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.298834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.308059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.308527s ]
+
+[ 2017-07-31T15:54:57+08:00 ] ::1 /IHG/admin.php/admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004416s ]
+
+[ 2017-07-31T15:59:55+08:00 ] ::1 /IHG/admin.php/admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002642s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000713s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004047s ]
+
+[ 2017-07-31T16:02:50+08:00 ] ::1 /IHG/admin.php/admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003591s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000851s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002801s ]
+
+[ 2017-07-31T16:03:17+08:00 ] ::1 /IHG/admin.php/admin/login/logincheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004419s ]
+NOTIC: [8] Undefined index: username E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\LoginController.class.php 第 16 行.
+NOTIC: [8] Undefined index: password E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\LoginController.class.php 第 17 行.
+
+[ 2017-07-31T16:05:09+08:00 ] ::1 /IHG/admin.php/admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002789s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002763s ]
+
+[ 2017-07-31T16:05:12+08:00 ] ::1 /IHG/admin.php/admin/login/logincheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003144s ]
+
+[ 2017-07-31T16:05:18+08:00 ] ::1 /IHG/admin.php/admin/login/logincheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002741s ]
+
+[ 2017-07-31T16:05:47+08:00 ] ::1 /IHG/admin.php/admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000270s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000674s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005812s ]
+
+[ 2017-07-31T16:05:49+08:00 ] ::1 /IHG/admin.php/admin/login/logincheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003056s ]
+
+[ 2017-07-31T16:05:52+08:00 ] ::1 /IHG/admin.php/admin/login/logincheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003252s ]
+
+[ 2017-07-31T16:05:57+08:00 ] ::1 /IHG/admin.php/admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000675s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002525s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002713s ]
+
+[ 2017-07-31T16:06:10+08:00 ] ::1 /IHG/admin.php/admin/login/logincheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002513s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_admin` [ RunTime:0.013396s ]
+SQL: SELECT * FROM `ihg_admin` WHERE ( username="king" ) LIMIT 1   [ RunTime:0.000898s ]
+
+[ 2017-07-31T16:06:11+08:00 ] ::1 /IHG/admin.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004117s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.198361s ]
+SQL: SELECT * FROM `ihg_menu`  [ RunTime:0.001723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002507s ]
+
+[ 2017-07-31T16:17:28+08:00 ] ::1 /IHG/admin.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.088342s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc  [ RunTime:0.001634s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004280s ]
+
+[ 2017-07-31T16:19:55+08:00 ] ::1 /IHG/admin.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006766s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.225733s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 1,5   [ RunTime:0.001289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000507s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002493s ]
+
+[ 2017-07-31T16:39:36+08:00 ] ::1 /IHG/admin.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002955s ]
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.182985s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.001548s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000693s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002778s ]
+
+[ 2017-07-31T16:59:55+08:00 ] ::1 /IHG/admin.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005362s ]
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.017951s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.001711s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.254793s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.120149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000444s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004636s ]
+
+[ 2017-07-31T16:59:59+08:00 ] ::1 /IHG/admin.php/Admin/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002647s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.054284s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 5,5   [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.171645s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000955s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000751s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002576s ]
+
+[ 2017-07-31T17:00:02+08:00 ] ::1 /IHG/admin.php/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003052s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.131416s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.145589s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000933s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003926s ]
+
+[ 2017-07-31T17:52:51+08:00 ] ::1 /IHG/admin.php/Admin/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004345s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.104012s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 5,5   [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.196975s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000700s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002425s ]
+
+[ 2017-07-31T17:52:54+08:00 ] ::1 /IHG/admin.php/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002623s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.127368s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.138393s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000737s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000705s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003584s ]
+
+[ 2017-07-31T17:54:18+08:00 ] ::1 /IHG/admin.php/Admin/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002715s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.348093s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 5,5   [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.139501s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.001142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000985s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003604s ]
+
+[ 2017-07-31T17:54:30+08:00 ] ::1 /IHG/admin.php/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004203s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.141454s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.117995s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000437s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002262s ]
+
+[ 2017-07-31T17:54:56+08:00 ] ::1 /IHG/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005143s ]
+NOTIC: [8] Undefined index: category E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.013770s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( category="西餐" )  [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.013603s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000788s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000748s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002761s ]
+
+[ 2017-07-31T20:02:01+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002695s ]
+
+[ 2017-07-31T20:07:25+08:00 ] ::1 /IHG/admin.php?m=admin&c=editor&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003091s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_upload1` [ RunTime:0.015117s ]
+ERR: 1146:La table 't1.ihg_upload1' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_upload1`
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015424s ]
+SQL: INSERT INTO `ihg_menu` (`title`,`content`,`image`,`category`,`show`) VALUES ('挤挤小面包','不负面包不负卿，第一次听到这句话很感动的，也许只是随口一句感激的话，但是听到心里还是暖暖的，与人分享亲制的美食是件喜悦的事情','/IHG/Uploads/2017-07-31/597f1d7c8e68d.jpg','面包','<div class=\"userTop clear\" style=\"margin:0px;padding:15px 0px 10px;font-family:\'Hiragino Sans GB\', STHeiti, 微软雅黑, \'Microsoft YaHei\', Helvetica, Arial, serif;background-color:#FFFFFF;\">\r\n	<h1 class=\"recipe_De_title\" style=\"text-align:center;font-size:12px;font-weight:400;\">\r\n		<a href=\"http://home.meishichina.com/recipe-260775.html\" id=\"recipe_title\"><strong><span style=\"color:#00D5FF;background-color:#00D5FF;\"><span style=\"font-size:32px;background-color:#000000;\">挤挤小面包</span><span style=\"font-size:32px;background-color:#000000;\"></span></span></strong></a>\r\n	</h1>\r\n	<div style=\"text-align:center;\">\r\n		<a class=\"J_photo\"><img src=\"http://i3.meishichina.com/attachment/recipe/2016/04/16/201604159gupd4tdv9famvbb.jpg@!p800\" alt=\"挤挤小面包的做法\" /></a>\r\n	</div>\r\n</div>\r\n<div class=\"space_box_home\" style=\"margin:0px;padding:0px;color:#585858;font-family:\'Hiragino Sans GB\', STHeiti, 微软雅黑, \'Microsoft YaHei\', Helvetica, Arial, serif;background-color:#FFFFFF;\">\r\n	<div class=\"recipDetail\" style=\"margin:0px;padding:0px;\">\r\n		<div class=\"recipe_De_imgBox\" id=\"recipe_De_imgBox\" style=\"margin:0px;padding:0px;text-align:center;background:url(&quot;\">\r\n			<p class=\"J_photo\" style=\"margin-left:-90px;background:#000000;\">\r\n				<span class=\"De_bg\">&nbsp;</span><span class=\"De_photo\" style=\"line-height:46px;font-size:16px;color:#FFFFFF;\">4张图片</span>\r\n			</p>\r\n		</div>\r\n		<blockquote class=\"block_txt\" id=\"block_txt\" style=\"font-size:16px;\">\r\n			<div id=\"block_txt1\" style=\"text-align:center;margin:0px;padding:0px;\">\r\n				<span class=\"txt_tart\" style=\"font-size:40px;font-family:宋体, \'Hiragino Sans GB\', STHeiti, 微软雅黑, \'Microsoft YaHei\';color:#BFBFBF;line-height:40px;\">“</span>不负面包不负卿，第一次听到这句话很感动的，也许只是随口一句感激的话，但是听到心里还是暖暖的，与人分享亲制的美食是件喜悦的事情，当然也是表达爱意、感谢最真诚的一种方式。能称为美食一定是好看好吃的，当然制作的时一定是侵入爱心的才能的更完美。不负面包不负卿，世间唯有美食与爱不可辜负！<span class=\"txt_end\" style=\"font-size:40px;font-family:宋体, \'Hiragino Sans GB\', STHeiti, 微软雅黑, \'Microsoft YaHei\';color:#BFBFBF;line-height:40px;\">”</span>\r\n			</div>\r\n		</blockquote>\r\n	</div>\r\n</div>') [ RunTime:0.538015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007732s ]
+
+[ 2017-07-31T20:07:27+08:00 ] ::1 /IHG/admin.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003427s ]
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.075028s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.111672s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000727s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005044s ]
+
+[ 2017-07-31T20:07:57+08:00 ] ::1 /IHG/index.php/home/index/index?category=%E5%86%B7%E8%8F%9C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003402s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015971s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( category="冷菜" )  [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.016076s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001963s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004221s ]
+
+[ 2017-07-31T20:08:01+08:00 ] ::1 /IHG/index.php/home/index/index?category=%E4%B8%AD%E9%A4%90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004794s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.017499s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( category="中餐" )  [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014772s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.002169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002778s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006228s ]
+
+[ 2017-07-31T20:08:05+08:00 ] ::1 /IHG/index.php/home/index/index?category=%E8%A5%BF%E9%A4%90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004437s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.017931s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( category="西餐" )  [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.016494s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000801s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009849s ]
+
+[ 2017-07-31T20:08:08+08:00 ] ::1 /IHG/index.php/home/index/index?category=%E9%9D%A2%E5%8C%85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016002s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.017782s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( category="面包" )  [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.019784s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000969s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006739s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008895s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007812s ]
+
+[ 2017-07-31T20:40:05+08:00 ] ::1 /IHG/admin.php?c=editor&a=update&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.113723s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=7 ) LIMIT 1   [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `ihg_position` [ RunTime:0.110344s ]
+SQL: SELECT * FROM `ihg_position` WHERE ( menu_id=7 ) LIMIT 1   [ RunTime:0.000798s ]
+NOTIC: [8] Undefined index: menu_id E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 52 行.
+NOTIC: [8] Undefined index: title E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 53 行.
+NOTIC: [8] Undefined index: show E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 54 行.
+NOTIC: [8] Undefined index: content E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 55 行.
+NOTIC: [8] Undefined index: category E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `ihg_upload1` [ RunTime:0.123442s ]
+ERR: 1146:La table 't1.ihg_upload1' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_upload1`
+NOTIC: [8] Undefined index: image E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Model\Upload1Model.class.php 第 11 行.
+NOTIC: [8] Undefined index: tmp_name E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] finfo_file(): Empty filename or path E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [8] Undefined index: name E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 153 行.
+NOTIC: [8] Undefined index: error E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 261 行.
+NOTIC: [8] Undefined index: tmp_name E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 272 行.
+NOTIC: [8] Undefined index: img E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000802s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004594s ]
+
+[ 2017-07-31T20:40:07+08:00 ] ::1 /IHG/admin.php?c=editor&a=update&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004923s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.095268s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=7 ) LIMIT 1   [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `ihg_position` [ RunTime:0.102239s ]
+SQL: SELECT * FROM `ihg_position` WHERE ( menu_id=7 ) LIMIT 1   [ RunTime:0.001049s ]
+NOTIC: [8] Undefined index: menu_id E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 52 行.
+NOTIC: [8] Undefined index: title E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 53 行.
+NOTIC: [8] Undefined index: show E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 54 行.
+NOTIC: [8] Undefined index: content E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 55 行.
+NOTIC: [8] Undefined index: category E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `ihg_upload1` [ RunTime:0.015741s ]
+ERR: 1146:La table 't1.ihg_upload1' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_upload1`
+NOTIC: [8] Undefined index: image E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Model\Upload1Model.class.php 第 11 行.
+NOTIC: [8] Undefined index: tmp_name E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] finfo_file(): Empty filename or path E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [8] Undefined index: name E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 153 行.
+NOTIC: [8] Undefined index: error E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 261 行.
+NOTIC: [8] Undefined index: tmp_name E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 272 行.
+NOTIC: [8] Undefined index: img E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000601s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003934s ]
+
+[ 2017-07-31T20:40:42+08:00 ] ::1 /IHG/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002788s ]
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.245818s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.014838s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000754s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000754s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003385s ]
+
+[ 2017-07-31T20:40:46+08:00 ] ::1 /IHG/admin.php/Admin/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003995s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.159037s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 5,5   [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.091196s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000743s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003751s ]
+
+[ 2017-07-31T20:40:48+08:00 ] ::1 /IHG/admin.php/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004126s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.103132s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.001812s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.087163s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.001038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000737s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002541s ]
+
+[ 2017-07-31T20:42:35+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000861s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002673s ]
+
+[ 2017-07-31T20:49:31+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003838s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000485s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001320s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005372s ]
+
+[ 2017-07-31T20:50:08+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005748s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000851s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001821s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004689s ]
+
+[ 2017-07-31T20:50:42+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001266s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004633s ]
+
+[ 2017-07-31T20:51:12+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000799s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006952s ]
+
+[ 2017-07-31T20:51:29+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004887s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001233s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004206s ]
+
+[ 2017-07-31T20:52:17+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000559s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001400s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003481s ]
+
+[ 2017-07-31T20:53:06+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003271s ]
+
+[ 2017-07-31T20:53:15+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002643s ]
+
+[ 2017-07-31T20:53:53+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017638s ]
+
+[ 2017-07-31T20:54:02+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003669s ]
+
+[ 2017-07-31T20:54:55+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000333s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004359s ]
+
+[ 2017-07-31T20:55:17+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003915s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005372s ]
+
+[ 2017-07-31T20:55:24+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001468s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002535s ]
+
+[ 2017-07-31T20:55:34+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003046s ]
+
+[ 2017-07-31T20:58:24+08:00 ] ::1 /IHG/admin.php?c=editor&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002556s ]
+
+[ 2017-07-31T20:58:27+08:00 ] ::1 /IHG/admin.php?m=admin&c=editor&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005483s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_upload1` [ RunTime:0.120066s ]
+ERR: 1146:La table 't1.ihg_upload1' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_upload1`
+NOTIC: [2] finfo_file(): Empty filename or path E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000697s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002706s ]
+
+[ 2017-07-31T20:58:29+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002798s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002816s ]
+
+[ 2017-07-31T20:59:14+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002796s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003486s ]
+
+[ 2017-07-31T20:59:29+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003821s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000462s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001213s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004830s ]
+
+[ 2017-07-31T20:59:57+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000764s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002885s ]
+
+[ 2017-07-31T21:00:15+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005873s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000710s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004950s ]
+
+[ 2017-07-31T21:00:26+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001107s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004560s ]
+
+[ 2017-07-31T21:03:59+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001223s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002701s ]
+
+[ 2017-07-31T21:04:08+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000964s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002004s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002883s ]
+
+[ 2017-07-31T21:04:37+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006576s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000454s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001253s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007410s ]
+
+[ 2017-07-31T21:04:58+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000742s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002842s ]
+
+[ 2017-07-31T21:05:08+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001197s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005053s ]
+
+[ 2017-07-31T21:06:40+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004346s ]
+
+[ 2017-07-31T21:06:53+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000741s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003275s ]
+
+[ 2017-07-31T21:08:54+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001185s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006066s ]
+
+[ 2017-07-31T21:10:40+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000724s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001714s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002430s ]
+
+[ 2017-07-31T21:11:45+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002733s ]
+
+[ 2017-07-31T21:12:08+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004665s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000525s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001021s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002765s ]
+
+[ 2017-07-31T21:12:38+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002827s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002752s ]
+
+[ 2017-07-31T21:13:11+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004188s ]
+
+[ 2017-07-31T21:13:26+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002859s ]
+
+[ 2017-07-31T21:14:54+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002901s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001122s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002730s ]
+
+[ 2017-07-31T21:14:59+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004634s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002884s ]
+
+[ 2017-07-31T21:15:22+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002872s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004863s ]
+
+[ 2017-07-31T21:15:34+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007564s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004855s ]
+
+[ 2017-07-31T21:16:01+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005170s ]
+
+[ 2017-07-31T21:16:49+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002848s ]
+
+[ 2017-07-31T21:18:40+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005804s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000472s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001265s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002960s ]
+
+[ 2017-07-31T21:20:08+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002855s ]
+
+[ 2017-07-31T21:20:30+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001182s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005506s ]
+
+[ 2017-07-31T21:22:21+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002951s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006589s ]
+
+[ 2017-07-31T21:22:38+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001781s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002548s ]
+
+[ 2017-07-31T21:22:48+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006799s ]
+
+[ 2017-07-31T21:23:01+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001241s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004587s ]
+
+[ 2017-07-31T21:23:54+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000940s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002797s ]
+
+[ 2017-07-31T21:24:20+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001579s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002398s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005115s ]
+
+[ 2017-07-31T21:26:54+08:00 ] ::1 /IHG/admin.php/Admin/editor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] Undefined variable: image1 E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\36856c46b9886f3c989e6fb1a19f28bb.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002578s ]
+
+[ 2017-07-31T21:51:30+08:00 ] ::1 /IHG/index.php/home/index/index?category=%E6%B0%B4%E6%9E%9C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002970s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015822s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( category="水果" )  [ RunTime:0.001560s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.017193s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001705s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.041272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041868s ]
+

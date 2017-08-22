@@ -1,0 +1,74 @@
+<include file="header" />
+<div class="container" >
+	<div class="row">
+		<div class="col-md-1 col-md-offset-1">
+		<a href="__ROOT__/admin.php?c=editor&a=index" ><span class="btn btn-info  ">新菜添加</span></a>
+	   </div>
+	   <div class="col-md-3 ">
+	   <div class="btn-group">
+	   <if condition="($table neq 'position')" >
+  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    排序 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li id="order_c"><a href="#">类别</a></li>
+    <li id="order_t"><a href="#">时间</a></li>
+            <li role="separator" class="divider"></li>
+        <li id="order"><a href="__ROOT__/admin.php?c=index&a=index">默认</a></li>
+
+  </ul></if>
+</div>
+</div>
+<div class="form-inline" style="margin-bottom:20px;margin-left:810px;">
+  <div class="form-group">
+        <input type="text" class="form-control" id="search" name="search" placeholder="请输入菜单编号/菜名">
+  </div>
+  <button id="search_title"  class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+</div>
+    </div>
+</div>
+<div class="col-md-8 col-md-offset-2">
+<form id="addtodaymenu">
+<table class="table table-bordered table-hover">
+	<tr><th>今日菜单</th>
+		<th>编号</th>
+		<th>菜名</th>
+		<th>介绍</th>
+		<th>类别</th>
+		<th>图片</th>
+		<th>时间</th>
+		<th>评论数</th>
+		<th>操作</th>
+	</tr>
+	<volist name="list" id="li"><tr>
+	<td><input type="checkbox" value="{$li.category}" name="addtoday[{$li.menu_id}]" ></td>
+		<td>{$li.menu_id}</td>
+		<td>{$li.title}</td>
+		<td>{$li.content|msubstr=0,25,'utf-8',true}</td>
+		<td>{$li.category}</td>
+		<td><img src="{$li.image}" width="80" height="50"></td>
+		<td>{$li.time|date="Y/m/d H:i:s",###}</td>
+		<td class="text-center"><a href="#">{$li.comment_count}</a></td>
+				<td>
+		<a href="__ROOT__/admin.php?c=editor&a=update&id={$li.menu_id}"><span class="glyphicon glyphicon-edit"></span></a>
+
+
+<a href="javascript:dialog.confirm('确定要删除吗?','__ROOT__/admin.php?c=editor&a=delete&id={$li.menu_id}<if condition="$position eq 1">&deletetable=1</if>')"><span  class="glyphicon glyphicon-remove-circle "></span></a>
+	<if condition="$position eq 0"><a href="javascript:dialog.confirm('添加到推荐表?','__ROOT__/admin.php?c=editor&a=addposition&id={$li.menu_id}')"><span class="glyphicon glyphicon-plus"></span></a></if>
+	<a  target="_blank" href="__ROOT__/index.php?m=home&c=content&a=show&id={$li.menu_id}"><span class="glyphicon glyphicon-eye-open"></span></a>
+		</td>
+
+	</tr></volist>
+
+</table></form>
+<button id="addtoday" class="btn btn-warning">今日菜品发布</button><br><br>
+{$page}
+</div>
+<script src="__PUBLIC__/Js/common.js"></script>
+<script>
+$(function(){
+
+})
+</script>
+<include file="buttom" />
+

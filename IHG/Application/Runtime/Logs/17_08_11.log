@@ -1,0 +1,1568 @@
+[ 2017-08-11T18:05:54+08:00 ] ::1 /IHG/admin.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021297s ]
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: position E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033713s ]
+
+[ 2017-08-11T18:05:55+08:00 ] ::1 /IHG/index.php/home/content/show/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029715s ]
+NOTIC: [2048] Declaration of Home\Controller\ContentController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\ContentController.class.php 第 42 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.238555s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001562s ]
+SQL: SHOW COLUMNS FROM `ihg_comment` [ RunTime:0.047315s ]
+SQL: SELECT * FROM `ihg_comment` WHERE ( menu_id=3 ) ORDER BY time desc  [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.054898s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000838s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001604s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.465813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.466894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025586s ]
+
+[ 2017-08-11T18:05:58+08:00 ] ::1 /IHG/admin.php/admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003087s ]
+
+[ 2017-08-11T19:09:25+08:00 ] ::1 /IHG/index.php/home/index/index?category=%E4%B8%AD%E9%A4%90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003671s ]
+NOTIC: [8] Undefined index: title E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.013415s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.013016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` WHERE ( category="中餐" ) LIMIT 1   [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `ihg_position` [ RunTime:0.014777s ]
+SQL: SELECT * FROM `ihg_position` ORDER BY menu_id desc LIMIT 2   [ RunTime:0.001205s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( category="中餐" ) LIMIT 0,8   [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014702s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000666s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007050s ]
+
+[ 2017-08-11T19:46:18+08:00 ] ::1 /IHG/index.php/home/index/index?category=%E4%B8%AD%E9%A4%90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016089s ]
+NOTIC: [8] Undefined index: title E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.014186s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.016589s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` WHERE ( category="中餐" ) LIMIT 1   [ RunTime:0.002635s ]
+SQL: SHOW COLUMNS FROM `ihg_position` [ RunTime:0.017991s ]
+SQL: SELECT * FROM `ihg_position` ORDER BY menu_id desc LIMIT 2   [ RunTime:0.001928s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( category="中餐" ) LIMIT 0,8   [ RunTime:0.002613s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.018473s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000796s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000659s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021231s ]
+
+[ 2017-08-11T19:46:22+08:00 ] ::1 /IHG/index.php/home/today_menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002897s ]
+ERR: 无法加载控制器:Today_menu
+
+[ 2017-08-11T19:47:01+08:00 ] ::1 /IHG/index.php/home/today_menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003892s ]
+ERR: 无法加载控制器:Today_menu
+
+[ 2017-08-11T20:03:48+08:00 ] ::1 /IHG/index.php/home/index/index?category=%E4%B8%AD%E9%A4%90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003760s ]
+NOTIC: [8] Undefined index: title E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.056168s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.013197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` WHERE ( category="中餐" ) LIMIT 1   [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `ihg_position` [ RunTime:0.015166s ]
+SQL: SELECT * FROM `ihg_position` ORDER BY menu_id desc LIMIT 2   [ RunTime:0.001167s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( category="中餐" ) LIMIT 0,8   [ RunTime:0.003208s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014534s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000677s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006987s ]
+
+[ 2017-08-11T20:03:53+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003552s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000486s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000909s ]
+NOTIC: [8] Undefined variable: nav E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\3ccc8284fcdefe0b4b22fd534ab12e5d.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006254s ]
+
+[ 2017-08-11T20:05:42+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002934s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.036319s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000493s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000916s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007745s ]
+
+[ 2017-08-11T20:08:01+08:00 ] ::1 /IHG/index.php/home/index/index?category=%E4%B8%AD%E9%A4%90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003907s ]
+NOTIC: [8] Undefined index: title E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.038485s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.016875s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` WHERE ( category="中餐" ) LIMIT 1   [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `ihg_position` [ RunTime:0.017766s ]
+SQL: SELECT * FROM `ihg_position` ORDER BY menu_id desc LIMIT 2   [ RunTime:0.001102s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( category="中餐" ) LIMIT 0,8   [ RunTime:0.002320s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014376s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000772s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006512s ]
+
+[ 2017-08-11T20:09:01+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003097s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014448s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000968s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000938s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003651s ]
+
+[ 2017-08-11T20:09:49+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041288s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.017301s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000984s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001677s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008536s ]
+
+[ 2017-08-11T20:10:06+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003564s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014044s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000841s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000618s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003622s ]
+
+[ 2017-08-11T20:16:34+08:00 ] ::1 /IHG/admin.php/admin/login/logincheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003343s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_admin` [ RunTime:0.015271s ]
+SQL: SELECT * FROM `ihg_admin` WHERE ( username="king" ) LIMIT 1   [ RunTime:0.000802s ]
+
+[ 2017-08-11T20:16:36+08:00 ] ::1 /IHG/admin.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003048s ]
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: position E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.201709s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.001761s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.085943s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000732s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004045s ]
+
+[ 2017-08-11T20:16:46+08:00 ] ::1 /IHG/admin.php/Admin/Index/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003855s ]
+NOTIC: [8] Undefined index: position E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.171181s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 10,5   [ RunTime:0.001691s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.108467s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000952s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000746s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002539s ]
+
+[ 2017-08-11T20:16:56+08:00 ] ::1 /IHG/admin.php?c=editor&a=update&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003437s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.154665s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `ihg_position` [ RunTime:0.184077s ]
+SQL: SELECT * FROM `ihg_position` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001022s ]
+NOTIC: [8] Undefined index: menu_id E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 61 行.
+NOTIC: [8] Undefined index: title E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 62 行.
+NOTIC: [8] Undefined index: show E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 63 行.
+NOTIC: [8] Undefined index: content E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 64 行.
+NOTIC: [8] Undefined index: category E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ihg_upload1` [ RunTime:0.081540s ]
+ERR: 1146:La table 't1.ihg_upload1' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_upload1`
+NOTIC: [8] Undefined index: image E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Model\Upload1Model.class.php 第 11 行.
+NOTIC: [8] Undefined index: tmp_name E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] finfo_file(): Empty filename or path E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [8] Undefined index: name E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 153 行.
+NOTIC: [8] Undefined index: error E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 261 行.
+NOTIC: [8] Undefined index: tmp_name E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 272 行.
+NOTIC: [8] Undefined index: img E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\7cad96ffce539630978d731a2146c049.php 第 31 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\7cad96ffce539630978d731a2146c049.php 第 32 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\7cad96ffce539630978d731a2146c049.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002315s ]
+
+[ 2017-08-11T20:17:09+08:00 ] ::1 /IHG/admin.php?c=editor&a=update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002355s ]
+NOTIC: [8] Undefined index: id E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 56 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.172156s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id= ) LIMIT 1   [ RunTime:0.000722s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ihg_menu` WHERE ( menu_id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ihg_position` [ RunTime:0.098379s ]
+SQL: SELECT * FROM `ihg_position` WHERE ( menu_id= ) LIMIT 1   [ RunTime:0.000667s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ihg_position` WHERE ( menu_id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ihg_upload1` [ RunTime:0.080631s ]
+ERR: 1146:La table 't1.ihg_upload1' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_upload1`
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: UPDATE `ihg_menu` SET `title`='酒香麻辣小龙虾',`content`='天生丽质，小龙虾就是这范儿！红艳亮丽的外衣，谁人能敌？小龙虾烹饪，除了啤酒，另加了二锅头，酒香与麻辣鲜香相融合，美妙滋味不言而喻！沾着汤汁舔虾壳都香屎人~~~【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱（自个儿在家舔舔就好，你懂得...）汤汁一定不要收太干，留着点儿才好，重口味的人，下碗面拌着吃都行。自家做小龙虾，吃着也放心，活虾买来放水里养几个小时，各种洗洗刷刷后，入锅爆炒。要是不敢刷...给胆小的人儿支一招：戴厨房手套刷个大致，过温水，再彻底洗净也可。啤酒入菜优点就不在这里说了，看我菜谱的人知道，我常常用。白酒与N+1份儿大蒜、生姜用来杀菌，料酒也必不可少！',`image`='/IHG/Uploads/2017-08-11/598da044d0306.jpg',`category`='中餐',`show`='天生丽质，小龙虾就是这范儿！红艳亮丽的外衣，谁人能敌？小龙虾烹饪，除了啤酒，另加了二锅头，酒香与麻辣鲜香相融合，美妙滋味不言而喻！沾着汤汁舔虾壳都香屎人~~~【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱（自个儿在家舔舔就好，你懂得...）汤汁一定不要收太干，留着点儿才好，重口味的人，下碗面拌着吃都行。自家做小龙虾，吃着也放心，活虾买来放水里养几个小时，各种洗洗刷刷后，入锅爆炒。要是不敢刷...给胆小的人儿支一招：戴厨房手套刷个大致，过温水，再彻底洗净也可。啤酒入菜优点就不在这里说了，看我菜谱的人知道，我常常用。白酒与N+1份儿大蒜、生姜用来杀菌，料酒也必不可少！',`time`=1502453828 WHERE ( menu_id=3 ) [ RunTime:0.059224s ]
+SQL: UPDATE `ihg_position` SET `title`='酒香麻辣小龙虾',`content`='天生丽质，小龙虾就是这范儿！红艳亮丽的外衣，谁人能敌？小龙虾烹饪，除了啤酒，另加了二锅头，酒香与麻辣鲜香相融合，美妙滋味不言而喻！沾着汤汁舔虾壳都香屎人~~~【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱（自个儿在家舔舔就好，你懂得...）汤汁一定不要收太干，留着点儿才好，重口味的人，下碗面拌着吃都行。自家做小龙虾，吃着也放心，活虾买来放水里养几个小时，各种洗洗刷刷后，入锅爆炒。要是不敢刷...给胆小的人儿支一招：戴厨房手套刷个大致，过温水，再彻底洗净也可。啤酒入菜优点就不在这里说了，看我菜谱的人知道，我常常用。白酒与N+1份儿大蒜、生姜用来杀菌，料酒也必不可少！',`image`='/IHG/Uploads/2017-08-11/598da044d0306.jpg',`category`='中餐',`show`='天生丽质，小龙虾就是这范儿！红艳亮丽的外衣，谁人能敌？小龙虾烹饪，除了啤酒，另加了二锅头，酒香与麻辣鲜香相融合，美妙滋味不言而喻！沾着汤汁舔虾壳都香屎人~~~【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱（自个儿在家舔舔就好，你懂得...）汤汁一定不要收太干，留着点儿才好，重口味的人，下碗面拌着吃都行。自家做小龙虾，吃着也放心，活虾买来放水里养几个小时，各种洗洗刷刷后，入锅爆炒。要是不敢刷...给胆小的人儿支一招：戴厨房手套刷个大致，过温水，再彻底洗净也可。啤酒入菜优点就不在这里说了，看我菜谱的人知道，我常常用。白酒与N+1份儿大蒜、生姜用来杀菌，料酒也必不可少！',`time`=1502453828 WHERE ( menu_id=3 ) [ RunTime:0.019322s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000688s ]
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\7cad96ffce539630978d731a2146c049.php 第 31 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\7cad96ffce539630978d731a2146c049.php 第 32 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\7cad96ffce539630978d731a2146c049.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002422s ]
+
+[ 2017-08-11T20:17:16+08:00 ] ::1 /IHG/admin.php?c=editor&a=update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002287s ]
+NOTIC: [8] Undefined index: id E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 56 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.146260s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id= ) LIMIT 1   [ RunTime:0.000627s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ihg_menu` WHERE ( menu_id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ihg_position` [ RunTime:0.120259s ]
+SQL: SELECT * FROM `ihg_position` WHERE ( menu_id= ) LIMIT 1   [ RunTime:0.000596s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `ihg_position` WHERE ( menu_id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ihg_upload1` [ RunTime:0.050002s ]
+ERR: 1146:La table 't1.ihg_upload1' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_upload1`
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: UPDATE `ihg_menu` SET `title`='酒香麻辣小龙虾',`content`='天生丽质，小龙虾就是这范儿！红艳亮丽的外衣，谁人能敌？小龙虾烹饪，除了啤酒，另加了二锅头，酒香与麻辣鲜香相融合，美妙滋味不言而喻！沾着汤汁舔虾壳都香屎人~~~【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱（自个儿在家舔舔就好，你懂得...）汤汁一定不要收太干，留着点儿才好，重口味的人，下碗面拌着吃都行。自家做小龙虾，吃着也放心，活虾买来放水里养几个小时，各种洗洗刷刷后，入锅爆炒。要是不敢刷...给胆小的人儿支一招：戴厨房手套刷个大致，过温水，再彻底洗净也可。啤酒入菜优点就不在这里说了，看我菜谱的人知道，我常常用。白酒与N+1份儿大蒜、生姜用来杀菌，料酒也必不可少！',`image`='/IHG/Uploads/2017-08-11/598da04c00598.jpg',`category`='中餐',`show`='天生丽质，小龙虾就是这范儿！红艳亮丽的外衣，谁人能敌？小龙虾烹饪，除了啤酒，另加了二锅头，酒香与麻辣鲜香相融合，美妙滋味不言而喻！沾着汤汁舔虾壳都香屎人~~~【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱（自个儿在家舔舔就好，你懂得...）汤汁一定不要收太干，留着点儿才好，重口味的人，下碗面拌着吃都行。自家做小龙虾，吃着也放心，活虾买来放水里养几个小时，各种洗洗刷刷后，入锅爆炒。要是不敢刷...给胆小的人儿支一招：戴厨房手套刷个大致，过温水，再彻底洗净也可。啤酒入菜优点就不在这里说了，看我菜谱的人知道，我常常用。白酒与N+1份儿大蒜、生姜用来杀菌，料酒也必不可少！',`time`=1502453835 WHERE ( menu_id=3 ) [ RunTime:0.058261s ]
+SQL: UPDATE `ihg_position` SET `title`='酒香麻辣小龙虾',`content`='天生丽质，小龙虾就是这范儿！红艳亮丽的外衣，谁人能敌？小龙虾烹饪，除了啤酒，另加了二锅头，酒香与麻辣鲜香相融合，美妙滋味不言而喻！沾着汤汁舔虾壳都香屎人~~~【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱（自个儿在家舔舔就好，你懂得...）汤汁一定不要收太干，留着点儿才好，重口味的人，下碗面拌着吃都行。自家做小龙虾，吃着也放心，活虾买来放水里养几个小时，各种洗洗刷刷后，入锅爆炒。要是不敢刷...给胆小的人儿支一招：戴厨房手套刷个大致，过温水，再彻底洗净也可。啤酒入菜优点就不在这里说了，看我菜谱的人知道，我常常用。白酒与N+1份儿大蒜、生姜用来杀菌，料酒也必不可少！',`image`='/IHG/Uploads/2017-08-11/598da04c00598.jpg',`category`='中餐',`show`='天生丽质，小龙虾就是这范儿！红艳亮丽的外衣，谁人能敌？小龙虾烹饪，除了啤酒，另加了二锅头，酒香与麻辣鲜香相融合，美妙滋味不言而喻！沾着汤汁舔虾壳都香屎人~~~【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱【酒香麻辣小龙虾】嗜肉者的解馋最爱（自个儿在家舔舔就好，你懂得...）汤汁一定不要收太干，留着点儿才好，重口味的人，下碗面拌着吃都行。自家做小龙虾，吃着也放心，活虾买来放水里养几个小时，各种洗洗刷刷后，入锅爆炒。要是不敢刷...给胆小的人儿支一招：戴厨房手套刷个大致，过温水，再彻底洗净也可。啤酒入菜优点就不在这里说了，看我菜谱的人知道，我常常用。白酒与N+1份儿大蒜、生姜用来杀菌，料酒也必不可少！',`time`=1502453835 WHERE ( menu_id=3 ) [ RunTime:0.000946s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000526s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001136s ]
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\7cad96ffce539630978d731a2146c049.php 第 31 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\7cad96ffce539630978d731a2146c049.php 第 32 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\7cad96ffce539630978d731a2146c049.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003264s ]
+
+[ 2017-08-11T20:17:20+08:00 ] ::1 /IHG/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003847s ]
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: position E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.135580s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.089703s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000719s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005082s ]
+
+[ 2017-08-11T20:17:23+08:00 ] ::1 /IHG/admin.php/Admin/Index/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003610s ]
+NOTIC: [8] Undefined index: position E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.104448s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 10,5   [ RunTime:0.001466s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.094080s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.001179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000501s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003347s ]
+
+[ 2017-08-11T20:17:31+08:00 ] ::1 /IHG/admin.php?c=editor&a=update&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002871s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.091699s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `ihg_position` [ RunTime:0.205849s ]
+SQL: SELECT * FROM `ihg_position` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000831s ]
+NOTIC: [8] Undefined index: menu_id E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 61 行.
+NOTIC: [8] Undefined index: title E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 62 行.
+NOTIC: [8] Undefined index: show E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 63 行.
+NOTIC: [8] Undefined index: content E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 64 行.
+NOTIC: [8] Undefined index: category E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ihg_upload1` [ RunTime:0.077796s ]
+ERR: 1146:La table 't1.ihg_upload1' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_upload1`
+NOTIC: [8] Undefined index: image E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Model\Upload1Model.class.php 第 11 行.
+NOTIC: [8] Undefined index: tmp_name E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] finfo_file(): Empty filename or path E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [8] Undefined index: name E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 153 行.
+NOTIC: [8] Undefined index: error E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 261 行.
+NOTIC: [8] Undefined index: tmp_name E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Upload.class.php 第 272 行.
+NOTIC: [8] Undefined index: img E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\EditorController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000380s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\7cad96ffce539630978d731a2146c049.php 第 31 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\7cad96ffce539630978d731a2146c049.php 第 32 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\7cad96ffce539630978d731a2146c049.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004275s ]
+
+[ 2017-08-11T20:23:15+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002959s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.030268s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000630s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005719s ]
+
+[ 2017-08-11T20:23:26+08:00 ] ::1 /IHG/index.php/home/index/index?category=%E4%B8%AD%E9%A4%90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003098s ]
+NOTIC: [8] Undefined index: title E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.014691s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015228s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` WHERE ( category="中餐" ) LIMIT 1   [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `ihg_position` [ RunTime:0.014535s ]
+SQL: SELECT * FROM `ihg_position` ORDER BY menu_id desc LIMIT 2   [ RunTime:0.001385s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( category="中餐" ) LIMIT 0,8   [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014938s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000954s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001695s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004297s ]
+
+[ 2017-08-11T20:23:29+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004378s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.017050s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000998s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001748s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007324s ]
+
+[ 2017-08-11T20:28:06+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002911s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.021105s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `ihg_today` [ RunTime:0.059204s ]
+ERR: 1146:La table 't1.ihg_today' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_today`
+SQL: SELECT * FROM `ihg_today`  [ RunTime:0.001362s ]
+ERR: 1146:La table 't1.ihg_today' n'existe pas
+ [ SQL语句 ] : SELECT * FROM `ihg_today` 
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.019783s ]
+SQL: SELECT * FROM `ihg_menu`  [ RunTime:0.001725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000621s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007544s ]
+
+[ 2017-08-11T20:31:30+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002953s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.015966s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015697s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015078s ]
+SQL: SELECT * FROM `ihg_menu`  [ RunTime:0.002539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001764s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007339s ]
+
+[ 2017-08-11T20:37:34+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002584s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.015298s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015873s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.013840s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 )  [ RunTime:0.001153s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 )  [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004327s ]
+
+[ 2017-08-11T20:38:10+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002401s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.138151s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.107854s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.185759s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 )  [ RunTime:0.001785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003936s ]
+
+[ 2017-08-11T20:38:13+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.030750s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001021s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.119145s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.145124s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 )  [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003797s ]
+
+[ 2017-08-11T20:39:04+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002359s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.167067s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.141819s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.277943s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 )  [ RunTime:0.001527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003298s ]
+
+[ 2017-08-11T20:39:17+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003516s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.178054s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.017179s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.066937s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 )  [ RunTime:0.002308s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 )  [ RunTime:0.001422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003098s ]
+
+[ 2017-08-11T20:46:51+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002627s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.109181s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.123423s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.179381s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 )  [ RunTime:0.001301s ]
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\TodaymenuController.class.php 第 12 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\TodaymenuController.class.php 第 12 行.
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 )  [ RunTime:0.000917s ]
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\TodaymenuController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002671s ]
+
+[ 2017-08-11T20:47:02+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002397s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.086245s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.128593s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.205286s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 )  [ RunTime:0.001352s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 )  [ RunTime:0.001084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002625s ]
+
+[ 2017-08-11T20:48:33+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003898s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.103704s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.129151s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.269381s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001548s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003519s ]
+
+[ 2017-08-11T20:49:00+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002677s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.082198s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.132818s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.204226s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001519s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004300s ]
+
+[ 2017-08-11T20:55:44+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002576s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.062831s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.084343s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.127170s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001537s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003497s ]
+
+[ 2017-08-11T20:56:25+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002401s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.114362s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.110270s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.167054s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001195s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004293s ]
+
+[ 2017-08-11T21:08:29+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002831s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.078065s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.108790s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.144634s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001167s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000773s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001992s ]
+NOTIC: [8] Undefined variable: list E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 152 行.
+NOTIC: [8] Undefined variable: list E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 204 行.
+NOTIC: [8] Undefined variable: list E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 224 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 248 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010089s ]
+
+[ 2017-08-11T21:10:21+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002506s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.013489s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.013266s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.016370s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001292s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000925s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001575s ]
+NOTIC: [8] Undefined variable: list E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004716s ]
+
+[ 2017-08-11T21:12:18+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002634s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.015682s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015287s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.014262s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001269s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000789s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000616s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001081s ]
+NOTIC: [8] Undefined variable: list E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005636s ]
+
+[ 2017-08-11T21:12:47+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002875s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.015474s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.013026s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.014941s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.000951s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000604s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001026s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003478s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Common\functions.php:698) E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Common\functions.php:698) E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Common\functions.php:698) E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011188s ]
+
+[ 2017-08-11T21:13:00+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002305s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.015136s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015444s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.014114s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001183s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000600s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001026s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006828s ]
+
+[ 2017-08-11T21:15:58+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000452s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005451s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.018552s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.018626s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.016979s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001516s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000900s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001806s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.043706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044524s ]
+
+[ 2017-08-11T21:28:53+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002682s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014983s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015034s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.018602s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001204s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004351s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006024s ]
+
+[ 2017-08-11T21:29:23+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004425s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.015971s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.023747s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.019950s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001439s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001799s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008949s ]
+
+[ 2017-08-11T21:29:37+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006218s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.074826s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001552s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015636s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.018564s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001299s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000869s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000597s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001026s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008031s ]
+
+[ 2017-08-11T21:30:00+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014163s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.017861s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.017286s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001559s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000597s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001027s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028929s ]
+
+[ 2017-08-11T21:30:20+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004568s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.042514s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.016480s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.018159s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001205s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000621s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001058s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013277s ]
+
+[ 2017-08-11T21:30:34+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005331s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.018315s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.013596s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.018254s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001454s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000943s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001693s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010204s ]
+
+[ 2017-08-11T21:31:22+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005982s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.113456s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.017830s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.017314s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001401s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001505s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008588s ]
+
+[ 2017-08-11T21:31:40+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005271s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.019459s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.017356s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.018287s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001566s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.003532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001626s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003002s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014149s ]
+
+[ 2017-08-11T21:31:58+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003462s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.015890s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015555s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.014814s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.000917s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001480s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002244s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.036569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.039384s ]
+
+[ 2017-08-11T21:32:18+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004406s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.016269s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001256s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.017791s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.016074s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001670s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001863s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010262s ]
+
+[ 2017-08-11T21:32:26+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000373s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003867s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.016305s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.020111s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.021899s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001522s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000613s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001340s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007481s ]
+
+[ 2017-08-11T21:42:12+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001329s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021204s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.017758s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.018934s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.021208s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001549s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000619s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001077s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.045854s ]
+
+[ 2017-08-11T21:42:32+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003245s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.018025s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.016224s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.022011s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001298s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000814s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002100s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004406s ]
+
+[ 2017-08-11T21:42:42+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.033511s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.017459s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.018324s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001330s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000987s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001738s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007181s ]
+

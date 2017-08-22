@@ -1,0 +1,1904 @@
+[ 2017-08-13T21:12:33+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.361684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.362481s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.529079s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.223687s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.028740s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001435s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000924s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001919s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 249 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 249 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 249 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 249 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.486579s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.487018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.841207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.841810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.097394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.098160s ]
+
+[ 2017-08-13T21:12:35+08:00 ] ::1 /IHG/admin.php/admin/index/index/position/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.361699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.362485s ]
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_position` [ RunTime:0.023093s ]
+SQL: SELECT * FROM `ihg_position` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.002406s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.607698s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_position` LIMIT 1   [ RunTime:0.000958s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.012591s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013598s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.437301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.438079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006752s ]
+
+[ 2017-08-13T21:13:49+08:00 ] ::1 /IHG/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004325s ]
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: position E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.059328s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.003017s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.057386s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.001262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000726s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004859s ]
+
+[ 2017-08-13T21:14:28+08:00 ] ::1 /IHG/admin.php/?c=index&a=order&orderwhere=%E7%B1%BB%E5%88%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005737s ]
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: position E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 31 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.181114s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY category desc LIMIT 0,5   [ RunTime:0.001455s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.141627s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000930s ]
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 31 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 32 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 33 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013918s ]
+
+[ 2017-08-13T21:14:45+08:00 ] ::1 /IHG/admin.php?c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003139s ]
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: position E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:2.080946s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.051466s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.100605s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000719s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005127s ]
+
+[ 2017-08-13T21:19:31+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003303s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.029337s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015306s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.018435s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001372s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : AttValue: &quot; or ' expected E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=(nav1.category eq list1.category)  /&gt;&lt;/tpl&gt; E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                     ^ E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=(nav1.category eq list1.category)  /&gt;&lt;/tpl&gt; E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                     ^ E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=(nav1.category eq list1.category)  /&gt;&lt;/tpl&gt; E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                     ^ E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : condition=(nav1.category eq list1.category) 
+
+[ 2017-08-13T21:19:48+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004047s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.138626s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.116914s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.132123s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001958s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001159s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : AttValue: &quot; or ' expected E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=(&quot;nav1.category eq list1.category&quot;)  /&gt;&lt;/tpl&gt; E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                     ^ E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=(&quot;nav1.category eq list1.category&quot;)  /&gt;&lt;/tpl&gt; E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                     ^ E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=(&quot;nav1.category eq list1.category&quot;)  /&gt;&lt;/tpl&gt; E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                     ^ E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : condition=("nav1.category eq list1.category") 
+
+[ 2017-08-13T21:20:08+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002756s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.030901s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.075382s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.088060s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001092s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000775s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000675s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001110s ]
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant list1 - assumed 'list1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant list1 - assumed 'list1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant list1 - assumed 'list1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant list1 - assumed 'list1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant list1 - assumed 'list1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant list1 - assumed 'list1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant list1 - assumed 'list1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant list1 - assumed 'list1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant list1 - assumed 'list1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant list1 - assumed 'list1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.239841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.240415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005591s ]
+
+[ 2017-08-13T21:24:06+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000462s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003060s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.038006s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015724s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015548s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001619s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001023s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition='(nav1.category eq '中餐')'  /&gt;&lt;/tpl&gt; E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                         ^ E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition='(nav1.category eq '中餐')'  /&gt;&lt;/tpl&gt; E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                         ^ E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : condition='(nav1.category eq '中餐')' 
+
+[ 2017-08-13T21:24:23+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002872s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.043130s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.139165s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.183206s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001162s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000841s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000680s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant nav1 - assumed 'nav1' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011840s ]
+
+[ 2017-08-13T21:25:14+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003246s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.017122s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.014512s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.014687s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.000962s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000731s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000887s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001515s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007077s ]
+
+[ 2017-08-13T21:30:36+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003023s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.021789s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.016721s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.014629s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001055s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000730s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001236s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009638s ]
+
+[ 2017-08-13T21:30:58+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003825s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.016566s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.013729s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015387s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.000933s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000701s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001164s ]
+
+[ 2017-08-13T21:31:46+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003928s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.016732s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.014430s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015828s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001044s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000681s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001146s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007563s ]
+
+[ 2017-08-13T21:32:04+08:00 ] ::1 /IHG/admin.php/?c=index&a=order&orderwhere=%E7%B1%BB%E5%88%AB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002842s ]
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: position E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 31 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.035005s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY category desc LIMIT 0,5   [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.091546s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000735s ]
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 31 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 32 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 33 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004630s ]
+
+[ 2017-08-13T21:32:08+08:00 ] ::1 /IHG/admin.php/Admin/Index/order/orderwhere/%E7%B1%BB%E5%88%AB/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002333s ]
+NOTIC: [8] Undefined index: position E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 31 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.197733s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY category desc LIMIT 5,5   [ RunTime:0.282664s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.069812s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 31 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 32 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 33 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006531s ]
+
+[ 2017-08-13T21:33:23+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004960s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014604s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.014044s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015612s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001006s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000590s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000683s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001138s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009084s ]
+
+[ 2017-08-13T21:35:42+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003002s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014527s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.034937s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.014004s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001132s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000828s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001596s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005131s ]
+
+[ 2017-08-13T21:36:02+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004013s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014801s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015561s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015850s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001678s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000678s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001110s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003569s ]
+
+[ 2017-08-13T21:37:44+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004926s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.015983s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.017266s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.018155s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001430s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003733s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014535s ]
+
+[ 2017-08-13T21:37:56+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004587s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.040483s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.013605s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.016738s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001481s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004584s ]
+
+[ 2017-08-13T21:38:08+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006060s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.021623s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015294s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001174s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.096821s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.000951s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000679s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001112s ]
+
+[ 2017-08-13T21:38:26+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002910s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.016068s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.016129s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.014915s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001174s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000670s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001099s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009261s ]
+
+[ 2017-08-13T21:39:13+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002861s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.016258s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001136s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015204s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001820s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015940s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001017s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000680s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001135s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008058s ]
+
+[ 2017-08-13T21:52:56+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004540s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.032855s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.014444s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.002015s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.016977s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001194s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000965s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006749s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007518s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015493s ]
+
+[ 2017-08-13T21:55:06+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000230s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010716s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.498675s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.021226s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.018008s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001506s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002205s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009186s ]
+
+[ 2017-08-13T21:59:44+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005028s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.030222s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.016641s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.019493s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001198s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000691s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001734s ]
+
+[ 2017-08-13T22:00:12+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003535s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.015851s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.014618s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015718s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.000929s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001743s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010888s ]
+
+[ 2017-08-13T22:01:46+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014111s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.016533s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015770s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.000943s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002023s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004522s ]
+
+[ 2017-08-13T22:02:55+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004125s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.041060s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015319s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.017675s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001604s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000796s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001429s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 252 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 252 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 252 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 252 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 227 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 252 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006922s ]
+
+[ 2017-08-13T22:03:14+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002889s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.015628s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.014653s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.016552s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.000927s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000674s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001104s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 252 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 252 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 252 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 252 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 252 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008139s ]
+
+[ 2017-08-13T22:03:43+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004015s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.015029s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015983s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.013566s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001017s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000676s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001106s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004144s ]
+
+[ 2017-08-13T22:04:52+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002984s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.013343s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.012977s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.014846s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001055s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000618s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001141s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007526s ]
+
+[ 2017-08-13T22:07:42+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003503s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.027351s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.013060s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.014684s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.000916s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001362s ]
+
+[ 2017-08-13T22:10:43+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003045s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.035937s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.118061s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.195265s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001383s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000946s ]
+
+[ 2017-08-13T22:15:03+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003666s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.034340s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.122408s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.188110s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001318s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000961s ]
+
+[ 2017-08-13T22:17:09+08:00 ] ::1 /IHG/admin.php/Admin/Index/order/orderwhere/%E7%B1%BB%E5%88%AB/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003468s ]
+NOTIC: [8] Undefined index: position E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 31 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.111278s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY category desc LIMIT 10,5   [ RunTime:0.233073s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.012462s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000846s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 31 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 32 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 33 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004793s ]
+
+[ 2017-08-13T22:17:12+08:00 ] ::1 /IHG/admin.php?c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002642s ]
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: position E:\WAMPSERVER\wamp\www\IHG\Application\Admin\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.116376s ]
+SQL: SELECT * FROM `ihg_menu` ORDER BY menu_id desc LIMIT 0,5   [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.206573s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` LIMIT 1   [ RunTime:0.000889s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000775s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009777s ]
+
+[ 2017-08-13T22:19:02+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005376s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.023037s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.101538s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.278698s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001632s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001169s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=2 ) LIMIT 1   [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001058s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010797s ]
+
+[ 2017-08-13T22:19:09+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002916s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.016040s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.013262s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.016470s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.000931s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000589s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=2 ) LIMIT 1   [ RunTime:0.000520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000911s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001690s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004870s ]
+
+[ 2017-08-13T22:19:13+08:00 ] ::1 /IHG/index.php/home/content/show/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002946s ]
+NOTIC: [2048] Declaration of Home\Controller\ContentController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\ContentController.class.php 第 42 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.016295s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=2 ) LIMIT 1   [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `ihg_comment` [ RunTime:0.060836s ]
+SQL: SELECT * FROM `ihg_comment` WHERE ( menu_id=2 ) ORDER BY time desc  [ RunTime:0.031000s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014848s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000512s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000935s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006402s ]
+
+[ 2017-08-13T22:19:24+08:00 ] ::1 /IHG/index.php/home/index/index?category=%E4%B8%AD%E9%A4%90
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002816s ]
+NOTIC: [8] Undefined index: title E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined index: p E:\WAMPSERVER\wamp\www\IHG\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_page` [ RunTime:0.011463s ]
+ERR: 1146:La table 't1.ihg_page' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `ihg_page`
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.017408s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ihg_menu` WHERE ( category="中餐" ) LIMIT 1   [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `ihg_position` [ RunTime:0.014853s ]
+SQL: SELECT * FROM `ihg_position` ORDER BY menu_id desc LIMIT 2   [ RunTime:0.001104s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( category="中餐" ) LIMIT 0,8   [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.013837s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000839s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000711s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005738s ]
+
+[ 2017-08-13T22:19:31+08:00 ] ::1 /IHG/index.php/?m=home&c=search&a=index&title=%E8%82%89%E9%85%B1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004567s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014162s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.032318s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( title like "%肉酱%" ) ORDER BY time desc  [ RunTime:0.001487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000669s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001093s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\1a5585c28f3c6b822a9229e2fd911702.php 第 276 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006894s ]
+
+[ 2017-08-13T22:19:39+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003087s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.020687s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.020919s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.038504s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001335s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.001144s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=2 ) LIMIT 1   [ RunTime:0.001161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000643s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001147s ]
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004852s ]
+
+[ 2017-08-13T22:19:59+08:00 ] ::1 /IHG/admin.php/?c=index&a=search&title=%E8%82%89%E9%85%B1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004932s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.087538s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( title like "%肉酱%" ) ORDER BY time desc  [ RunTime:0.001134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 31 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 32 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 33 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002435s ]
+
+[ 2017-08-13T22:20:53+08:00 ] ::1 /IHG/admin.php/?c=index&a=search&title=%E8%82%89%E9%85%B1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000268s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002395s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.199191s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( title like "%肉酱%" ) ORDER BY time desc  [ RunTime:0.001538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 31 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 32 行.
+NOTIC: [8] Undefined variable: table E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 33 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 99 行.
+NOTIC: [8] Undefined variable: position E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 100 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Admin\693afcd7332ed56236ad4c9f2ea97205.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002281s ]
+
+[ 2017-08-13T22:20:54+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003997s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.016736s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.015100s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.017477s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.001203s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000759s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=2 ) LIMIT 1   [ RunTime:0.000672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002024s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007770s ]
+
+[ 2017-08-13T22:21:46+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002601s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.016858s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.011466s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.018056s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.000949s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000580s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=2 ) LIMIT 1   [ RunTime:0.000509s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000621s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001054s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006616s ]
+
+[ 2017-08-13T22:22:31+08:00 ] ::1 /IHG/index.php/home/todaymenu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002866s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\WAMPSERVER\wamp\www\IHG\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ihg_nav` [ RunTime:0.014616s ]
+SQL: SELECT * FROM `ihg_nav`  [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `ihg_todaymenu` [ RunTime:0.012359s ]
+SQL: SELECT * FROM `ihg_todaymenu`  [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `ihg_menu` [ RunTime:0.015882s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=14 ) LIMIT 1   [ RunTime:0.000966s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.000579s ]
+SQL: SELECT * FROM `ihg_menu` WHERE ( menu_id=2 ) LIMIT 1   [ RunTime:0.000758s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001731s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002844s ]
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Array to string conversion E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 226 行.
+NOTIC: [8] Undefined variable: page E:\WAMPSERVER\wamp\www\IHG\Application\Runtime\Cache\Home\571c4ebd15c92a1dcecc58c1a4012590.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007859s ]
+
